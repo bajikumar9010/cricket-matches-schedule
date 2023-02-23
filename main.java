@@ -82,11 +82,11 @@ class Schedule {
 public class Main {
     public static void main(String[] args) {
         Team[] teams = new Team[] {
-            new Team("IND"),
-            new Team("ENG"),
-            new Team("PAk"),
-            new Team("SRILANKA"),
-            new Team("USa")
+            new Team("Team A"),
+            new Team("Team B"),
+            new Team("Team c"),
+            new Team("Team D"),
+            new Team("Team E")
         };
         
         Schedule schedule = new Schedule(teams);
